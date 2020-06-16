@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+      
+    body {
+    background-color: #2f3035;
+    min-height: 100vh;
+    background-image: url(n.jpg);
+    background-size: cover;
+    background-position: center;
+}
+           
+            .small-widget-box {
+                padding: 5px;
+                width: 600px;
+                height: 400px;
+                resize: both;
+                overflow: auto;
+                
+                border: 4px solid black;
+                border-radius: 5px;
+            }
+            
+            .table-grid {
+                display: grid;
+                grid-template-columns: repeat(10, minmax(75px, auto));
+                grid-template-rows: repeat(3, minmax(auto, 75px));
+                overflow: auto;
+                
+                max-height: 100%;
+                max-width: 100%;
+            }
+            
+            .table-grid div {
+                border: 1px solid green;
+                z-index: 0;
+            }
+            
+            .table-grid div.fixedToTop {
+                
+                
+                z-index: 10;
+            }
+            
+            .table-grid div.fixedToLeft {
+               
+                
+                z-index: 10;
+            }
+            
+            .table-grid div.fixedToBoth {
+                
+                
+                top: 0;
+                z-index: 20;
+            }
+            
+            .table-grid .header {
+                background-color: rosybrown;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="small-widget-box">
+            <div class="table-grid">  
+                <div class="header fixedToBoth">Love story book </div>
+                <div class="header fixedToTop">Author Name</div>
+                <div class="header fixedToTop">Motivation book</div>
+                <div class="header fixedToTop">Author Name</div>
+      
+                
+                
+                <div class="header fixedToLeft">other books</div>
+                <div class="body">Author Name</div>
+                <div class="body">Love story book</div>
+                <div class="body">Author Name</div>
+     
+             
+                
+                <div class="header fixedToLeft">Motivation book</div>
+                <div class="body">Author Name</div>
+                <div class="body">Wish I could Tell You</div>
+                <div class="body">Durjoy Datta</div>
+        
+                
+                <div class="header fixedToLeft">The Only Skill That Matters </div>
+                <div class="body">Jonathan A. Levi</div>
+                <div class="body">You Are a Badass</div>
+                <div class="body"> Jen Sincero</div>
+        
+          
+                
+                <div class="header fixedToLeft"> The One You Cannot Have</div>
+                <div class="body">Preeti Shenoy</div>
+                <div class="body">Smarter, Faster, Better</div>
+                <div class="body">Charles Duhigg</div>
+      
+                
+                <div class="header fixedToLeft">Grit: The Power of Passion </div>
+                <div class="body">Angela Duckworth</div>
+                <div class="body">Choose Yourself </div>
+                <div class="body">James Altucher</div>
+        
+                
+                <div class="header fixedToLeft"> High-Hanging Fruit</div>
+                <div class="body">Mark Rampolla</div>
+                <div class="body"> You Are the Best Wife</div>
+                <div class="body"> Ajay K. Pandey</div>
+       
+                
+                <div class="header fixedToLeft">Think and Grow Rich</div>
+                <div class="body">Napoleon Hill</div>
+                <div class="body"> Baaz</div>
+                <div class="body">Anuja Chauhan</div>
+              
+                
+                <div class="header fixedToLeft">Tools of Titans</div>
+                <div class="body">Tim Ferriss</div>
+                <div class="body">The Power of Broke</div>
+                <div class="body">Daymond John</div>
+        
+                
+                <div class="header fixedToLeft">Barely a Lady</div>
+                <div class="body">Eileen Dreyer</div>
+                <div class="body">Hustle</div>
+                <div class="body">Neil Patel</div>
+ 
+                
+                <div class="header fixedToLeft">Blue Moon Bay</div>
+                <div class="body">Lisa Wingate</div>
+                <div class="body">5 Second Rule</div>
+                <div class="body">Mel Robbins</div>
+       
+      
+                
+                <div class="header fixedToLeft">Becoming</div>
+                <div class="body">Michelle Obama</div>
+                <div class="body">The Bridegroom</div>
+                <div class="body">Linda Lael Miller</div>
+   
+                
+                <div class="header fixedToLeft">Can’t Hurt Me</div>
+                <div class="body">David Goggins</div>
+                <div class="body">Accidental -ly Yours</div>
+                <div class="body"> Susan Mallery</div>
+       
+            </div>
+        </div>
+    </body>
+</html>
